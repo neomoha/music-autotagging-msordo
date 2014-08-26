@@ -66,7 +66,7 @@ for genres, moods, rhythm and instrumentation. More info [here](https://github.c
   * (optional) sudo ./waf install
 
 * Finally, copy or create a symbolic link to the pre-trained svm models, for example:
-  * ln -s essentia-2.0.1/build/src/examples/svm_models/
+  * ln -s essentia-2.0.1/src/examples/svm_models/
   
 ### Installing [Unipath](https://pypi.python.org/pypi/Unipath/)
 * sudo pip install unipath
