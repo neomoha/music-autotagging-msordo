@@ -19,7 +19,7 @@
 # Email: mohamed ^dot^ sordo ^at^ gmail ^dot^ com
 # Website: http://msordo.weebly.com
 
-import os, glob
+import os, glob, sys
 
 from FeatureExtractor import FeatureExtractor
 from DatasetCreator import DatasetCreator
@@ -96,7 +96,9 @@ def feature_extraction(collection_name):
     path_to_audio='/path/to/audio'
     path_to_features='features/%s' % collection_name
     replace_features=False
-    extractor = FeatureExtractor(path_to_extractor)
+    if not os.path.exists(path_to_extractor):
+        print "Path to extractor '%s' not found" % path_to_extractor
+        sys.exit(-1)
     extractor.extract(path_to_audio, path_to_features, replace_features=replace_features)
 
 def training_and_classification_with_kfold_cross_validation(collection_name, k):
