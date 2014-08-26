@@ -85,3 +85,12 @@ Each block may also be run separately. Each block has a running script ([feature
 [feature_selection.py](https://github.com/neomoha/music-autotagging-thesis/blob/master/feature_selection.py),
 [autotagging.py](https://github.com/neomoha/music-autotagging-thesis/blob/master/autotagging.py))
 with different options to customize the algorithm.
+
+####Note
+
+* The metadata files should follow this format:
+  * trackid[TAB]trackpath[TAB]tag([TAB]weight)
+* The feature files should follow this format:
+  * trackid[TAB]track_features_path
+
+This is already explained in the code.

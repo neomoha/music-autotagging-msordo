@@ -29,6 +29,10 @@ from validation import kfold_cross_validation
 import evaluation
 
 def _load_metadata(metadata_filename):
+    '''
+    Metadata should be in the format:
+    trackid[TAB]trackpath[TAB]tag([TAB]weight)
+    '''
     metadata = dict()
     with open(metadata_filename) as f:
         for line in f:

@@ -32,6 +32,11 @@ class Autotagger:
         self.ds.load(dataset_file)
     
     def __load_training_metadata(self, metadata_file):
+        '''
+        Load training metadata
+        The metadata_file should be in the format:
+        trackid[TAB]trackpath[TAB]tag([TAB]weight)
+        '''
         print "Loading training metadata..."
         self.metadata = dict()
         i = 1
@@ -146,6 +151,8 @@ class Autotagger:
     def classify(self, test_features_file, output_file, metric="LC", num_sim=18, threshold=.2, ranked=False):
         '''
         Weighted-vote k-nn classifier
+        The test_features_file should be in the format:
+        trackid[TAB]track_features_path
         '''
         print "Autotagging...(ranked=%s)" % ranked
         with open(output_file, "w") as outfile:

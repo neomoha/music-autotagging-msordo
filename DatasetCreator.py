@@ -68,6 +68,11 @@ class DatasetCreator:
                     outfile.write('  "%s": "%s"\n' % (trackid, trackpath))
     
     def create(self, training_features_file, chunk_size=5000, suffix=None, replace=False):
+        '''
+        Create gaia dataset.
+        The training_features_file should be in the format:
+        trackid[TAB]track_features_path
+        '''
         print "Creating gaia dataset..."
         if not os.path.exists("dbs"):
             os.mkdir("dbs")
