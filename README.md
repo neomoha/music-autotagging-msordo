@@ -100,3 +100,5 @@ with different options to customize the algorithm.
   * trackid[TAB]track_features_path
 
 This is already explained in the code.
+
+If you have any doubt, please contact me at mohamed [dot] sordo (at) msordo [dot] com
