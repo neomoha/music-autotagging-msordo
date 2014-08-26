@@ -101,4 +101,4 @@ with different options to customize the algorithm.
 
 This is already explained in the code.
 
-If you have any doubt, please contact me at mohamed [dot] sordo (at) msordo [dot] com
+If you have any doubt, please [contact me](http://msordo.weebly.com/contact.html)
