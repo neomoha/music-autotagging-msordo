@@ -7,27 +7,22 @@ The code is licensed under a [GPLv3](http://www.gnu.org/copyleft/gpl.html) licen
 
 For researchers please cite the following papers if you use this code:
 
-@article{sordo2012semantic,
-
-  title={Semantic annotation of music collections: a computational approach},
-  
-  author={Sordo, Mohamed},
-  
-  year={2012},
-  
-  publisher={Universitat Pompeu Fabra}
-  
-}
+    @article{sordo2012semantic,
+      title={Semantic annotation of music collections: a computational approach},
+      author={Sordo, Mohamed},
+      year={2012},
+      publisher={Universitat Pompeu Fabra}
+    }
 
 or
 
-@inproceedings {sordo20071,
- author = {Sordo, M. and Laurier, C. and Celma, O.},
- title = {Annotating Music Collections: How content-based similarity helps to propagate labels},
- booktitle = {Proceedings of 8th International Conference on Music Information Retrieval},
- year = {2007},
- address = {Vienna, Austria},
-}
+    @inproceedings {sordo20071,
+     author = {Sordo, M. and Laurier, C. and Celma, O.},
+     title = {Annotating Music Collections: How content-based similarity helps to propagate labels},
+     booktitle = {Proceedings of 8th International Conference on Music Information Retrieval},
+     year = {2007},
+     address = {Vienna, Austria},
+    }
 
 Dependencies
 ------
