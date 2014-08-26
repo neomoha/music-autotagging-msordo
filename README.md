@@ -1,7 +1,7 @@
 Music Autotagging using a weighted-vote Nearest Neighbor classifier
 ======
 
-Code for the music autotagging algorithm developed during my [PhD Thesis](http://msordo.weebly.com/thesis.html)
+Code for the music autotagging algorithm developed during my [PhD](http://msordo.weebly.com/thesis.html)
 
 This algorithm was submitted to the [MIREX](http://www.music-ir.org/mirex/wiki/MIREX_HOME) competition in 2011 in the [Audio Tag Classification Task](http://www.music-ir.org/mirex/wiki/2011:MIREX2011_Results)
 and obtained the 3rd best result.
