@@ -156,6 +156,8 @@ def evaluation_with_kfold_cross_validation(collection_name, k):
 if __name__ == '__main__':
     collection_name='majorminer'
     k = 3
-    feature_extraction(collection_name) # you need to change some paths here
+    #For the sample dataset, the features are alreadry extracted and stored in the features/majorminer folder
+    #uncomment the following line if you want to re-extract these features.
+    #feature_extraction(collection_name) # you need to change some paths here
     training_and_classification_with_kfold_cross_validation(collection_name, k)
     evaluation_with_kfold_cross_validation(collection_name, k)
