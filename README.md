@@ -3,6 +3,9 @@ Music Autotagging using a weighted-vote Nearest Neighbor classifier
 
 Code for the music autotagging algorithm developed during my [PhD Thesis](http://msordo.weebly.com/thesis.html)
 
+This algorithm was submitted to the [MIREX](http://www.music-ir.org/mirex/wiki/MIREX_HOME) competition in 2011 in the [Audio Tag Classification Task](http://www.music-ir.org/mirex/wiki/2011:MIREX2011_Results)
+and obtained the 3rd best result.
+
 The code is licensed under a [GPLv3](http://www.gnu.org/copyleft/gpl.html) license, so feel free to use it, modify it and redistribute it as long as you respect the license :-)
 
 For researchers please cite the following papers if you use this code:
@@ -61,6 +64,9 @@ for genres, moods, rhythm and instrumentation. More info [here](https://github.c
   * ./waf configure --mode=release --with-python --with-cpptests --with-examples --with-vamp
   * ./waf
   * (optional) sudo ./waf install
+
+* Finally, copy or create a symbolic link to the pre-trained svm models, for example:
+  * ln -s essentia-2.0.1/build/src/examples/svm_models/
   
 ### Installing [Unipath](https://pypi.python.org/pypi/Unipath/)
 * sudo pip install unipath
