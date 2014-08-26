@@ -1,8 +1,8 @@
 Music Autotagging using a weighted-vote Nearest Neighbor classifier
 ======
 
-Code for the music autotagging algorithm developed during my (PhD Thesis)[http://msordo.weebly.com/thesis.html]
-The code is licensed under a (GPLv3)[http://www.gnu.org/copyleft/gpl.html] license, so feel free to use it, modify it and redistribute it as long as you respect the license :-)
+Code for the music autotagging algorithm developed during my [PhD Thesis](http://msordo.weebly.com/thesis.html)
+The code is licensed under a [GPLv3](http://www.gnu.org/copyleft/gpl.html) license, so feel free to use it, modify it and redistribute it as long as you respect the license :-)
 For researchers please cite the following papers if you use this code:
 
 @article{sordo2012semantic,
@@ -25,8 +25,8 @@ or
 Dependencies
 ------
 
-The two main dependencies of this code are (Essentia)[http://essentia.upf.edu/] and (Gaia)[https://github.com/MTG/gaia], two libraries developed at the (Music Technology Group)[http://mtg.upf.edu/]
-of the (Universitat Pompeu Fabra)[http://www.upf.edu/en/]. Please check their respective websites for more information. In a few words, this code uses Essentia to extract audio features for a collection of songs,
+The two main dependencies of this code are [Essentia](http://essentia.upf.edu/) and [Gaia](https://github.com/MTG/gaia), two libraries developed at the [Music Technology Group](http://mtg.upf.edu/)
+of the [Universitat Pompeu Fabra](http://www.upf.edu/en/). Please check their respective websites for more information. In a few words, this code uses Essentia to extract audio features for a collection of songs,
 and gaia to represent those audio features in a high dimensional space and perform operations such as dimension reduction, feature selection and similarity measurement.
 
 In my case, I follow this steps in a Linux Ubuntu distribution 
@@ -58,7 +58,7 @@ for genres, moods, rhythm and instrumentation. More info [here](https://github.c
   * ./waf
   * (optional) sudo ./waf install
   
-### Installing (Unipath)[https://pypi.python.org/pypi/Unipath/]
+### Installing [Unipath](https://pypi.python.org/pypi/Unipath/)
 * sudo pip install unipath
 
 How to use it
@@ -71,8 +71,12 @@ The code is basically divided in 5 main blocks:
 * Training and Classification (Autotagging)
 * Evaluation
 
-There is an (example.py)[] script that shows how to perform autotagging over a sample dataset (crawled from the (majorminer)[http://majorminer.org/info/intro] website), using k-fold cross validation.
-This script also calculates all the evaluation measures used in the (MIREX)[http://www.music-ir.org/mirex/wiki/2014:Audio_Tag_Classification] competition.
+There is an [example.py](https://github.com/neomoha/music-autotagging-thesis/blob/master/example.py) script that shows how to perform autotagging over a sample dataset
+(crawled from the [majorminer](http://majorminer.org/info/intro) website), using k-fold cross validation.
+This script also calculates all the evaluation measures used in the [MIREX](http://www.music-ir.org/mirex/wiki/2014:Audio_Tag_Classification) competition.
 
-Each block may also be run separately. Each block has a running script ((feature_extraction.py)[], (dataset_creation.py)[], (feature_selection.py)[], (autotagging.py)[])
+Each block may also be run separately. Each block has a running script ([feature_extraction.py](https://github.com/neomoha/music-autotagging-thesis/blob/master/feature_extraction.py),
+[dataset_creation.py](https://github.com/neomoha/music-autotagging-thesis/blob/master/dataset_creation.py),
+[feature_selection.py](https://github.com/neomoha/music-autotagging-thesis/blob/master/feature_selection.py),
+[autotagging.py](https://github.com/neomoha/music-autotagging-thesis/blob/master/autotagging.py))
 with different options to customize the algorithm.
