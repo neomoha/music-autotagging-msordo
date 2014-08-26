@@ -76,6 +76,7 @@ The code is basically divided in 5 main blocks:
 There is an [example.py](https://github.com/neomoha/music-autotagging-thesis/blob/master/example.py) script that shows how to perform autotagging over a sample dataset
 (crawled from the [majorminer](http://majorminer.org/info/intro) website), using k-fold cross validation.
 This script also calculates all the evaluation measures used in the [MIREX](http://www.music-ir.org/mirex/wiki/2014:Audio_Tag_Classification) competition.
+To run it, you just need to change a couple of paths in the _feature_extraction_ function.
 
 Each block may also be run separately. Each block has a running script ([feature_extraction.py](https://github.com/neomoha/music-autotagging-thesis/blob/master/feature_extraction.py),
 [dataset_creation.py](https://github.com/neomoha/music-autotagging-thesis/blob/master/dataset_creation.py),
