@@ -45,7 +45,7 @@ Dependencies
 ------
 
 The two main dependencies of this code are [Essentia](http://essentia.upf.edu/) and [Gaia](https://github.com/MTG/gaia), two libraries developed at the [Music Technology Group](http://mtg.upf.edu/)
-of the [Universitat Pompeu Fabra](http://www.upf.edu/en/). Please check their respective websites for more information. In a few words, this code uses Essentia to extract audio features for a collection of songs,
+of the [Universitat Pompeu Fabra](http://www.upf.edu/en/). Please check their respective websites for more information. In a nutshell, this code uses Essentia to extract audio features for a collection of songs,
 and Gaia to represent those audio features in a high dimensional space, and perform operations such as dimension reduction, feature selection and similarity measurement.
 
 In my case, I follow these steps in a Linux Ubuntu distribution:
