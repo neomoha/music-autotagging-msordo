@@ -26,6 +26,19 @@ or
      year = {2007},
      address = {Vienna, Austria},
     }
+    
+If you use the sample dataset included in this repository (crawled from the [majorminer](http://majorminer.org/info/intro) website), please cite the following paper:
+
+    @article{mandel08b,
+      title = {A Web-Based Game for Collecting Music Metadata},
+      author = {Michael I. Mandel and Daniel P. W. Ellis},
+      journal = {Journal of New Music Research},
+      year = {2008},
+      volume = {37},
+      number = {2},
+      pages = {151--165},
+      url = {http://m.mr-pc.org/work/jnmr08.pdf},
+    }
 
 Dependencies
 ------
@@ -101,4 +114,4 @@ with different options to customize the algorithm.
 
 This is already explained in the code.
 
-If you have any doubt, please feel free [contact me](http://msordo.weebly.com/contact.html).
+If you have any doubt, please feel free to [contact me](http://msordo.weebly.com/contact.html).
