@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+# Copyright © <2014>  Music Technology Group - Universitat Pompeu Fabra
 # This file is part of music-autotagging-msordo.
 #
 # music-autotagging-msordo is free software: you can redistribute it and/or modify
