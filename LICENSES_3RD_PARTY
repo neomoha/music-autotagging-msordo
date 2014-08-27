@@ -1,0 +1,5 @@
+B. Dependant libraries are:
+
+Essentia: under the Affero GPLv3 license. Project page at http://essentia.upf.edu/  License at http://www.gnu.org/licenses/agpl.html
+Gaia: under the Affero GPLv3 license. Project page at hhttps://github.com/MTG/gaia  License at http://www.gnu.org/licenses/agpl.html
+Unipath: under Python licence. Project page at https://github.com/mikeorr/Unipath  License at https://docs.python.org/2/license.html
